@@ -1,0 +1,49 @@
+*{
+    font-family: Arial;
+    font-size: 12px;
+}
+body{
+    padding: 70px 0px 0px 0px;
+    background-color: #24607f;
+    margin: 0;
+}
+.tablaListar{
+    border: 1px solid #337ab7;
+    background: #fff;
+    margin: 0px 1px 1px 0px;
+    padding: 0px;    
+}
+/*s*/
+.tablaListar>tbody>tr:hover{
+    background-color:#a2c6e5
+}
+/*s*/
+.tablaListar>tbody>tr>td>label{
+    padding: 0px; 
+    margin: 0px; 
+    font-weight: normal;  
+}
+/*s*/
+.tablaListar>thead>tr>th>label{
+    padding: 0px; 
+    margin: 0px; 
+}
+/*s*/
+.tablaListar>tbody>tr{
+    height: 33px;
+}
+/*s*/
+.tablaEncabezado{
+    margin-bottom: -5px; 
+}
+/*s*/
+.tablaEncabezado>thead>tr>th{
+    padding: 6px 1px 7px 0px;
+}
+
+.listar{
+    background: #fff;   
+    padding: 5px; 
+    overflow-y: scroll; 
+    height: 368px;
+}
